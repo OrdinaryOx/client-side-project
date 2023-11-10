@@ -14,7 +14,20 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@client-side-workspace/backend/dto": ["libs/backend/dto/src/index.ts"],
+      "@client-side-workspace/backend/features": [
+        "libs/backend/features/src/index.ts"
+      ],
+      "@client-side-workspace/frontend/common": [
+        "libs/frontend/common/src/index.ts"
+      ],
+      "@client-side-workspace/frontend/features": [
+        "libs/frontend/features/src/index.ts"
+      ],
+      "@client-side-workspace/shared/api": ["libs/shared/api/src/index.ts"],
+      "@client-side-workspace/ui": ["libs/frontend/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
